@@ -59,7 +59,7 @@ public class TaskTest {
         );
 
         boolean expected = true;
-        boolean actual = meeting.matches("вторник");
+        boolean actual = meeting.matches("Приложение");
 
         Assertions.assertEquals(expected, actual);
 
